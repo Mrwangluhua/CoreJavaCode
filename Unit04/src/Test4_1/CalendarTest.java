@@ -10,7 +10,8 @@ public class CalendarTest {
         int mouth = date.getMonthValue();
         int today = date.getDayOfMonth();
 
-        date = date.minusDays(today-1);
+        date = date.minusDays(today-1);//减去指定的天数，当前是已经过去13天了 然后减去（13-1）天就是减去12天
+                                        //得到的是当前月份的第一天即2018-11-01；
         DayOfWeek weekday = date.getDayOfWeek();
         int value = weekday.getValue();
 

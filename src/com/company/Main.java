@@ -11,6 +11,6 @@ public class Main {
         int mouth = date.getMonthValue();
         int year = date.getYear();
         int day = date.getDayOfMonth();
-        System.out.println(mouth+"\t"+day+"%3d"+year);
+        System.out.println(date.minusDays(day-1));
     }
 }
