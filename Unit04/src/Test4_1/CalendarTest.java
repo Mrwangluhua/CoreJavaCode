@@ -20,7 +20,7 @@ public class CalendarTest {
             System.out.print("    ");
         }
         while(date.getMonthValue()==mouth){
-            System.out.printf("%3d",date.getDayOfMonth());
+            System.out.printf("%3dws",date.getDayOfMonth());
             if(date.getDayOfMonth() == today){
                 System.out.print("*");
             }else{
